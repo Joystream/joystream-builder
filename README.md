@@ -49,7 +49,7 @@ Example on mac copying to home directory `~/bin` folder:
 
 Add the `bin/` folder to the PATH:
 
-    export PATH=$PATH:~/bin
+    export PATH="$PATH:$HOME/bin"
 
 Run joycli:
 
