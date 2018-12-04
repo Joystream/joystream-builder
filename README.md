@@ -61,7 +61,7 @@ Run joycli:
 
 ### Connecting to joystream network
 
-    Consult the [joystream manual](https://github.com/joystream/joystream-manual)
+Consult the [joystream manual](https://github.com/joystream/joystream-manual)
 
 ### Changing build configuration
 The scripts will build from configured source repo and commit hash set in [build.sh](build.sh)
