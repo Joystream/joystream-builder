@@ -11,7 +11,7 @@ Pre-requisites [docker](#docker)
 ### Usage
 Clone this repo and run the build script:
 
-    git clone https://github.com/mnaamani/joystream-builder
+    git clone https://github.com/joystream/joystream-builder
     cd joystream-builder/
     ./build.sh
 
@@ -61,13 +61,13 @@ Run joycli:
 
 ### Connecting to joystream network
 
-    Consult the [joystream manual](https://github.com/mnaamani/joystream-manual)
+    Consult the [joystream manual](https://github.com/joystream/joystream-manual)
 
 ### Changing build configuration
 The scripts will build from configured source repo and commit hash set in [build.sh](build.sh)
 
     export COMMIT=43d1fc3aeef81f492902a5c616a1b517d50262f0
-    export SOURCE_REPO="https://github.com/mnaamani/cosmos-sdk.git"
+    export SOURCE_REPO="https://github.com/joystream/cosmos-sdk.git"
 
 ### <a name="docker"></a> Docker
 Install docker on supported platform:
