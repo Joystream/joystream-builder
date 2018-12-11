@@ -58,3 +58,16 @@ The scripts will build from configured source repo and commit hash set in [build
 ### <a name="docker"></a> Docker
 Install docker on supported platform:
 https://docs.docker.com/install/#supported-platforms
+
+
+### Building Raspberry Pi binaries
+
+Raspberry Pi binaries (ARM5 architecture) can be built with:
+
+    ./build-raspberry.sh
+
+
+will produce:
+
+    ./bin/linux_arm5/joyd
+    ./bin/linux_arm5/joycli

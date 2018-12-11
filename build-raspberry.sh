@@ -16,4 +16,4 @@ docker run \
   --env TARGET \
   --mount type=bind,source="$source",target="$TARGET" \
   --rm \
-  golang:1.11.1 < _build.sh
+  golang:1.11.1 < _build-raspberry.sh
