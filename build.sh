@@ -2,7 +2,7 @@
 
 # This is the commit of the SDK version to use for building Joystream binaries
 # We use an explicit hash instead of a tag so we don't have to trust GitHub.
-export COMMIT=4b5b98cee905971db7dacb500f997c82dacb9851
+export COMMIT=1dbaa64082d19ee4d44758a5f1a3d93cb0682b46
 export SOURCE_REPO="https://github.com/joystream/cosmos-sdk.git"
 
 source="$(pwd)/bin/"

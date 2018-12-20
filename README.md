@@ -46,7 +46,7 @@ Run joycli:
 
 ..should output the version.
 
-    0.28.0-rc2-12-g4b5b98ce-joystream
+    0.29.0-30-g1dbaa640-joystream
 
 ### Connecting to joystream network
 
